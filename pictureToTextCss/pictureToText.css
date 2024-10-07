@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(168, 205, 236);
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 1140px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    box-shadow: -10px -6px 46px  rgb(98, 154, 200), 7px 11px 50px rgb(98, 154, 200);
+}
+h1{
+    color:  rgb(3, 63, 112);
+    font-family: gabriola;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 60px;
+}
+h2{
+    color:  rgb(3, 63, 112);
+    font-family: gabriola;
+    text-align: center;
+    font-size: 200%;
+}
+h3{
+    color: rgb(3, 63, 112);
+    font-family: gabriola;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 120%;
+    
+}
+.fileItem{
+    height: 300px;
+    width: 500px;
+    border: 4px solid   rgb(168, 205, 236);
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+}
+#imageInfo{
+    font-family: gabriola;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    color:  rgb(3, 63, 112);
+}
